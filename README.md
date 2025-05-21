@@ -1,7 +1,7 @@
 # Backup and Recovery with AWS Backup
 
-This repository provides you with a management and deployment solution for implementing Backup and Recovery with AWS Backup across your AWS organization spanning multiple accounts and regions.
-
+This repository provides you with a management and deployment solution for implementing Backup and Recovery with AWS Backup across your AWS organization spanning multiple accounts and regions. -LajahShrestha 
+![YouTube](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/youtube.svg) CloudOps with Lajah
 Check out the AWS Blog post for more context: [Use AWS Backup and CI/CD tools to automate centralized backup across AWS services](https://aws.amazon.com/blogs/storage/use-aws-backup-and-ci-cd-tools-to-automate-centralized-backup-across-aws-services/)
 
 The solution includes the following features:
