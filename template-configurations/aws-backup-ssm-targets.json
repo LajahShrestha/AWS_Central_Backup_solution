@@ -1,0 +1,14 @@
+{
+  "Parameters" : {
+    "TargetHomeAccount" : "account_no",
+    "TargetRegions" : "us-east-1",
+    "TargetGlobalRegion" : "us-east-1",
+    "OrgIdManagementAccount": "o-776etpotok",
+    "TargetOUs" : "ou-wgh3-c86lgath, ou-wgh3-m55k6myw",
+    "CentralBackupVaultArn": "arn:aws:backup:region:account_no:backup-vault:vault_name",
+    "OrgManagementAccount": "management_account_no"
+    },
+  "Tags" : {
+    "Application" : "Backup and Recovery with AWS"
+  }
+}

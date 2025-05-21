@@ -1,0 +1,21 @@
+{
+  "Parameters" : {
+    "pOrgBackupTargetOUs": "/backup/target/organizational-units",
+    "pRegions": "/backup/target/regions",
+    "pCentralBackupVaultArn": "/backup/central-vault-arn",
+    "pBackupTagKey1": "backup",
+    "pBackupTagValue1": "daily",
+    "pBackupTagKey2": "backup2",
+    "pBackupTagValue2": "monthly",
+    "pBackupTagKey3": "backup3",
+    "pBackupTagValue3": "hourly",
+    "pTagKey": "project",
+    "pTagValue": "aws-backup",
+    "DailyBackupSchedule": "cron(30 17 * * ? *)",
+    "MonthlyBackupSchedule": "cron(30 17 29 * ? *)",
+    "HourlyBackupSchedule": "cron(0 * * * ? *)"
+  },
+  "Tags" : {
+    "Application" : "Backup and Recovery with AWS"
+  }
+}
